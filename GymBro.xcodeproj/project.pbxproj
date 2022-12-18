@@ -18,6 +18,16 @@
 		9812BEE3294E465D0086B6C4 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 9812BEE2294E465D0086B6C4 /* FirebaseDatabase */; };
 		9812BEE5294E465D0086B6C4 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 9812BEE4294E465D0086B6C4 /* FirebaseFirestore */; };
 		9812BEE7294E465D0086B6C4 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 9812BEE6294E465D0086B6C4 /* FirebaseFirestoreSwift */; };
+		9812BEEB294E48EF0086B6C4 /* AuthenticationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9812BEEA294E48EF0086B6C4 /* AuthenticationView.swift */; };
+		9812BEED294E48FE0086B6C4 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9812BEEC294E48FE0086B6C4 /* SignInView.swift */; };
+		9812BEEF294E49100086B6C4 /* SignUpVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9812BEEE294E49100086B6C4 /* SignUpVIew.swift */; };
+		9812BEF4294E494C0086B6C4 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9812BEF3294E494C0086B6C4 /* UserViewModel.swift */; };
+		9812BEF6294E49610086B6C4 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9812BEF5294E49610086B6C4 /* UserModel.swift */; };
+		9812BEF8294E49710086B6C4 /* SignInShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9812BEF7294E49700086B6C4 /* SignInShape.swift */; };
+		9812BEFA294E49820086B6C4 /* SignUpShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9812BEF9294E49820086B6C4 /* SignUpShape.swift */; };
+		9812BEFC294E4A940086B6C4 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9812BEFB294E4A940086B6C4 /* TestView.swift */; };
+		9812BEFE294E4C920086B6C4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9812BEFD294E4C920086B6C4 /* GoogleService-Info.plist */; };
+		9812BF00294E58650086B6C4 /* WaterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9812BEFF294E58650086B6C4 /* WaterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +58,16 @@
 		9812BEAA294E29930086B6C4 /* GymBroUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GymBroUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9812BEAE294E29930086B6C4 /* GymBroUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymBroUITests.swift; sourceTree = "<group>"; };
 		9812BEB0294E29930086B6C4 /* GymBroUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymBroUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9812BEEA294E48EF0086B6C4 /* AuthenticationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationView.swift; sourceTree = "<group>"; };
+		9812BEEC294E48FE0086B6C4 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		9812BEEE294E49100086B6C4 /* SignUpVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVIew.swift; sourceTree = "<group>"; };
+		9812BEF3294E494C0086B6C4 /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		9812BEF5294E49610086B6C4 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		9812BEF7294E49700086B6C4 /* SignInShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInShape.swift; sourceTree = "<group>"; };
+		9812BEF9294E49820086B6C4 /* SignUpShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpShape.swift; sourceTree = "<group>"; };
+		9812BEFB294E4A940086B6C4 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
+		9812BEFD294E4C920086B6C4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Library/Containers/com.apple.mail/Data/Library/Mail Downloads/4E42F257-DF67-424B-A987-81E4045859E0/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9812BEFF294E58650086B6C4 /* WaterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,9 +122,15 @@
 		9812BE92294E29910086B6C4 /* GymBro */ = {
 			isa = PBXGroup;
 			children = (
+				9812BEFB294E4A940086B6C4 /* TestView.swift */,
+				9812BEF0294E49280086B6C4 /* Model */,
+				9812BEF2294E49360086B6C4 /* ViewModel */,
+				9812BEF1294E492F0086B6C4 /* Shape */,
+				9812BEE8294E487F0086B6C4 /* View */,
 				9812BE93294E29910086B6C4 /* GymBroApp.swift */,
 				9812BE95294E29910086B6C4 /* ContentView.swift */,
 				9812BE97294E29930086B6C4 /* Assets.xcassets */,
+				9812BEFD294E4C920086B6C4 /* GoogleService-Info.plist */,
 				9812BE99294E29930086B6C4 /* Preview Content */,
 			);
 			path = GymBro;
@@ -133,6 +159,50 @@
 				9812BEB0294E29930086B6C4 /* GymBroUITestsLaunchTests.swift */,
 			);
 			path = GymBroUITests;
+			sourceTree = "<group>";
+		};
+		9812BEE8294E487F0086B6C4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9812BEE9294E488A0086B6C4 /* Authentication */,
+				9812BEFF294E58650086B6C4 /* WaterView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9812BEE9294E488A0086B6C4 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				9812BEEA294E48EF0086B6C4 /* AuthenticationView.swift */,
+				9812BEEC294E48FE0086B6C4 /* SignInView.swift */,
+				9812BEEE294E49100086B6C4 /* SignUpVIew.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		9812BEF0294E49280086B6C4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9812BEF5294E49610086B6C4 /* UserModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9812BEF1294E492F0086B6C4 /* Shape */ = {
+			isa = PBXGroup;
+			children = (
+				9812BEF7294E49700086B6C4 /* SignInShape.swift */,
+				9812BEF9294E49820086B6C4 /* SignUpShape.swift */,
+			);
+			path = Shape;
+			sourceTree = "<group>";
+		};
+		9812BEF2294E49360086B6C4 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				9812BEF3294E494C0086B6C4 /* UserViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,6 +320,7 @@
 			files = (
 				9812BE9B294E29930086B6C4 /* Preview Assets.xcassets in Resources */,
 				9812BE98294E29930086B6C4 /* Assets.xcassets in Resources */,
+				9812BEFE294E4C920086B6C4 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,7 +346,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				9812BE96294E29910086B6C4 /* ContentView.swift in Sources */,
+				9812BEF6294E49610086B6C4 /* UserModel.swift in Sources */,
+				9812BEF4294E494C0086B6C4 /* UserViewModel.swift in Sources */,
 				9812BE94294E29910086B6C4 /* GymBroApp.swift in Sources */,
+				9812BF00294E58650086B6C4 /* WaterView.swift in Sources */,
+				9812BEED294E48FE0086B6C4 /* SignInView.swift in Sources */,
+				9812BEF8294E49710086B6C4 /* SignInShape.swift in Sources */,
+				9812BEFC294E4A940086B6C4 /* TestView.swift in Sources */,
+				9812BEFA294E49820086B6C4 /* SignUpShape.swift in Sources */,
+				9812BEEB294E48EF0086B6C4 /* AuthenticationView.swift in Sources */,
+				9812BEEF294E49100086B6C4 /* SignUpVIew.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
