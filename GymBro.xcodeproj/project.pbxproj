@@ -28,6 +28,11 @@
 		9812BEFC294E4A940086B6C4 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9812BEFB294E4A940086B6C4 /* TestView.swift */; };
 		9812BEFE294E4C920086B6C4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9812BEFD294E4C920086B6C4 /* GoogleService-Info.plist */; };
 		9812BF00294E58650086B6C4 /* WaterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9812BEFF294E58650086B6C4 /* WaterView.swift */; };
+		9892739A29510A9000AD84B6 /* SideMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9892739929510A9000AD84B6 /* SideMenuView.swift */; };
+		9892739C29510AAB00AD84B6 /* SideMenuOptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9892739B29510AAB00AD84B6 /* SideMenuOptionView.swift */; };
+		9892739E29510AD400AD84B6 /* SideMenuViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9892739D29510AD400AD84B6 /* SideMenuViewModel.swift */; };
+		989273A029510AF400AD84B6 /* SideMenuHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9892739F29510AF400AD84B6 /* SideMenuHeaderView.swift */; };
+		989273A229510BEB00AD84B6 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 989273A129510BEB00AD84B6 /* MainTabView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +73,11 @@
 		9812BEFB294E4A940086B6C4 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
 		9812BEFD294E4C920086B6C4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Library/Containers/com.apple.mail/Data/Library/Mail Downloads/4E42F257-DF67-424B-A987-81E4045859E0/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		9812BEFF294E58650086B6C4 /* WaterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterView.swift; sourceTree = "<group>"; };
+		9892739929510A9000AD84B6 /* SideMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuView.swift; sourceTree = "<group>"; };
+		9892739B29510AAB00AD84B6 /* SideMenuOptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuOptionView.swift; sourceTree = "<group>"; };
+		9892739D29510AD400AD84B6 /* SideMenuViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuViewModel.swift; sourceTree = "<group>"; };
+		9892739F29510AF400AD84B6 /* SideMenuHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuHeaderView.swift; sourceTree = "<group>"; };
+		989273A129510BEB00AD84B6 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,8 +174,10 @@
 		9812BEE8294E487F0086B6C4 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				9892739829510A7500AD84B6 /* SideMenu */,
 				9812BEE9294E488A0086B6C4 /* Authentication */,
 				9812BEFF294E58650086B6C4 /* WaterView.swift */,
+				989273A129510BEB00AD84B6 /* MainTabView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -201,8 +213,19 @@
 			isa = PBXGroup;
 			children = (
 				9812BEF3294E494C0086B6C4 /* UserViewModel.swift */,
+				9892739D29510AD400AD84B6 /* SideMenuViewModel.swift */,
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		9892739829510A7500AD84B6 /* SideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				9892739929510A9000AD84B6 /* SideMenuView.swift */,
+				9892739B29510AAB00AD84B6 /* SideMenuOptionView.swift */,
+				9892739F29510AF400AD84B6 /* SideMenuHeaderView.swift */,
+			);
+			path = SideMenu;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -345,14 +368,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				989273A029510AF400AD84B6 /* SideMenuHeaderView.swift in Sources */,
+				9892739C29510AAB00AD84B6 /* SideMenuOptionView.swift in Sources */,
 				9812BE96294E29910086B6C4 /* ContentView.swift in Sources */,
+				989273A229510BEB00AD84B6 /* MainTabView.swift in Sources */,
 				9812BEF6294E49610086B6C4 /* UserModel.swift in Sources */,
 				9812BEF4294E494C0086B6C4 /* UserViewModel.swift in Sources */,
 				9812BE94294E29910086B6C4 /* GymBroApp.swift in Sources */,
 				9812BF00294E58650086B6C4 /* WaterView.swift in Sources */,
 				9812BEED294E48FE0086B6C4 /* SignInView.swift in Sources */,
+				9892739A29510A9000AD84B6 /* SideMenuView.swift in Sources */,
 				9812BEF8294E49710086B6C4 /* SignInShape.swift in Sources */,
 				9812BEFC294E4A940086B6C4 /* TestView.swift in Sources */,
+				9892739E29510AD400AD84B6 /* SideMenuViewModel.swift in Sources */,
 				9812BEFA294E49820086B6C4 /* SignUpShape.swift in Sources */,
 				9812BEEB294E48EF0086B6C4 /* AuthenticationView.swift in Sources */,
 				9812BEEF294E49100086B6C4 /* SignUpVIew.swift in Sources */,
